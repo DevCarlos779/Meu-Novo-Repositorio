@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link rel="icon" href="./imgs/icone.png" type="image/x-icon" />
+    <title>Carlos Emanuel — Portfólio</title>
+  </head>
+  <body>
+    <div class="noise-layer" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="#home">
+          <span class="brand-caret">&gt;_</span> carlos<span class="accent">.dev</span>
+        </a>
+
+        <button class="mobile-menu" id="mobile-menu" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="editor-tabs" id="nav-bar">
+          <a href="#home" class="tab item-nav active-link" data-tab="sobre.tsx">
+            <i class="fa-regular fa-file-code"></i>sobre.tsx
+          </a>
+          <a href="#skills" class="tab item-nav" data-tab="habilidades.json">
+            <i class="fa-regular fa-file-code"></i>habilidades.json
+          </a>
+          <a href="#projects" class="tab item-nav" data-tab="projetos.map()">
+            <i class="fa-regular fa-file-code"></i>projetos.map()
+          </a>
+          <a href="#contact" class="tab item-nav" data-tab="contato.env">
+            <i class="fa-regular fa-file-code"></i>contato.env
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="dot"></span>Disponível para estágio</p>
+            <h1>Carlos Emanuel<br /><span class="accent">Pinho da Silva</span></h1>
+            <h2>Desenvolvedor Front-End</h2>
+            <p class="lede">
+              Estudante de Ciência da Computação focado em construir interfaces
+              com React e TypeScript — de dashboards a apps de produtividade,
+              sempre com atenção a UI, responsividade e código organizado.
+            </p>
+
+            <div class="hero-actions">
+              <a
+                href="./Arquivo/Curriculo-2026.1.pdf"
+                download="Carlos_Emanuel_CV"
+                class="btn-primary"
+                >Baixar currículo <i class="fa-solid fa-arrow-down"></i
+              ></a>
+              <div class="div-icons">
+                <a href="https://www.linkedin.com/in/carlos-emanuel-developer/" aria-label="LinkedIn"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+                <a href="https://github.com/DevCarlos779" aria-label="GitHub"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="photo-frame">
+              <img src="imgs/Foto-Social.jpg" alt="Foto de Carlos Emanuel" />
+            </div>
+
+            <div class="terminal-window" role="img" aria-label="Terminal exibindo apresentação de Carlos">
+              <div class="terminal-titlebar">
+                <span class="dot-red"></span><span class="dot-yellow"></span><span class="dot-green"></span>
+                <span class="terminal-title">carlos@dev — zsh</span>
+              </div>
+              <div class="terminal-body" id="terminal-body">
+                <p><span class="prompt">$</span> whoami</p>
+                <p class="out">&gt; Carlos Emanuel, 20 — Front-end Developer</p>
+                <p><span class="prompt">$</span> cat stack.txt</p>
+                <p class="out">&gt; React · TypeScript · Tailwind CSS · Git</p>
+                <p><span class="prompt">$</span> status --current</p>
+                <p class="out ok">&gt; aberto a oportunidades de estágio</p>
+                <p class="caret-line"><span class="prompt">$</span> <span class="blink">▍</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <p class="section-eyebrow">// habilidades.json</p>
+        <h2 class="title-content">Stack &amp; ferramentas</h2>
+
+        <section class="skills-content">
+          <div class="item-skill">
+            <p class="icon-skill"><i class="fa-brands fa-html5"></i></p>
+            <h3>HTML5</h3>
+          </div>
+          <div class="item-skill">
+            <p class="icon-skill"><i class="fa-brands fa-css3-alt"></i></p>
+            <h3>CSS3</h3>
+          </div>
+          <div class="item-skill">
+            <p class="icon-skill"><i class="fa-brands fa-js"></i></p>
+            <h3>JavaScript</h3>
+          </div>
+          <div class="item-skill">
+            <p class="icon-skill"><i class="devicon-typescript-plain"></i></p>
+            <h3>TypeScript</h3>
+          </div>
+          <div class="item-skill featured">
+            <p class="icon-skill"><i class="fa-brands fa-react"></i></p>
+            <h3>ReactJS</h3>
+          </div>
+          <div class="item-skill">
+            <p class="icon-skill"><i class="fa-solid fa-palette"></i></p>
+            <h3>Tailwind CSS</h3>
+          </div>
+          <div class="item-skill">
+            <p class="icon-skill"><i class="fa-brands fa-git-alt"></i></p>
+            <h3>Git &amp; GitHub</h3>
+          </div>
+          <div class="item-skill">
+            <p class="icon-skill"><i class="fa-solid fa-tower-broadcast"></i></p>
+            <h3>APIs REST</h3>
+          </div>
+          <div class="item-skill">
+            <p class="icon-skill"><i class="fa-brands fa-java"></i></p>
+            <h3>Java (POO)</h3>
+          </div>
+        </section>
+      </section>
+
+      <section class="section" id="projects">
+        <p class="section-eyebrow">// projetos.map()</p>
+        <h2 class="title-content">Projetos</h2>
+
+        <section class="project-content">
+          <article class="item-project" id="focus-flow" tabindex="0">
+            <div class="browser-frame">
+              <div class="browser-bar">
+                <span class="dot-red"></span><span class="dot-yellow"></span><span class="dot-green"></span>
+                <span class="browser-url">focus-flow-mocha.vercel.app</span>
+              </div>
+              <img src="imgs/Focus-Flow-Image.png" alt="Tela do app Focus Flow" />
+            </div>
+            <div class="project-info">
+              <h3>Focus Flow</h3>
+              <p>
+                App de produtividade com timer Pomodoro integrado a uma
+                to-do list, persistência local e gerenciamento de estado via
+                Context API.
+              </p>
+              <p class="tech-tag">React · TypeScript · Context API</p>
+              <div class="project-links">
+                <a href="https://focus-flow-mocha.vercel.app" target="_blank" rel="noopener">Ver deploy <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com/DevCarlos779/FocusFlow" target="_blank" rel="noopener">Código <i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="item-project is-building" tabindex="0">
+            <div class="browser-frame placeholder-frame">
+              <div class="browser-bar">
+                <span class="dot-red"></span><span class="dot-yellow"></span><span class="dot-green"></span>
+                <span class="browser-url">money-tracker</span>
+              </div>
+              <div class="placeholder-body">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Money Tracker <span class="badge">em breve</span></h3>
+              <p>
+                Controle financeiro pessoal com gráficos de despesas por
+                categoria e metas de poupança com acompanhamento de progresso.
+              </p>
+              <p class="tech-tag">React · TypeScript · React Hook Form + Zod</p>
+            </div>
+          </article>
+
+          <a class="item-project more-projects" href="https://github.com/DevCarlos779" target="_blank" rel="noopener">
+            <i class="fa-brands fa-github"></i>
+            <h3>Mais projetos</h3>
+            <p>Veja o restante dos repositórios no GitHub</p>
+          </a>
+        </section>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <p class="section-eyebrow center">// contato.env</p>
+      <h2 class="title-content">Vamos conversar</h2>
+
+      <section class="contact-content">
+        <a class="item-contact" href="mailto:devcarlos0112@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+          <div class="infos-contact">
+            <h5>Email</h5>
+            <p>devcarlos0112@gmail.com</p>
+          </div>
+        </a>
+
+        <div class="item-contact">
+          <i class="fa-solid fa-user-tie"></i>
+          <div class="infos-contact">
+            <h5>Contas profissionais</h5>
+            <a href="https://www.linkedin.com/in/carlos-emanuel-developer/">@Carlos Emanuel</a>
+            <a href="https://github.com/DevCarlos779">@DevCarlos779</a>
+          </div>
+        </div>
+
+        <a class="item-contact" href="https://wa.me/5588994065281" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp"></i>
+          <div class="infos-contact">
+            <h5>Telefone</h5>
+            <p>(88) 99406-5281</p>
+          </div>
+        </a>
+      </section>
+
+      <p class="footer-line">© 2026 Carlos Emanuel — feito com <i class="fa-solid fa-code"></i></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
